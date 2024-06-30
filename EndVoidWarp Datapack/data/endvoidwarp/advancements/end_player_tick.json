@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "end_player_tick": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "location": {
+              "dimension": "minecraft:the_end"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "endvoidwarp:end_player_tick"
+    }
+  }
+  
